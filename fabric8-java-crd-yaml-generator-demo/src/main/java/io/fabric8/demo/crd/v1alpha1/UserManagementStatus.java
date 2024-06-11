@@ -1,6 +1,6 @@
 package io.fabric8.demo.crd.v1alpha1;
 
-public class BookStatus {
+public class UserManagementStatus {
     private boolean issued;
     private String issuedto;
 
@@ -20,9 +20,4 @@ public class BookStatus {
         this.issuedto = issuedto;
     }
 
-//    @Override
-//    public String toString() {
-//        return "BookStatus{issued=" + issued + "," +
-//                "issuedto=" + issuedto + "}";
-//    }
 }

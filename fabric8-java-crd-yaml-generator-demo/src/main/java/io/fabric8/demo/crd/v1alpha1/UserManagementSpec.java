@@ -1,6 +1,6 @@
 package io.fabric8.demo.crd.v1alpha1;
 
-public class BookSpec {
+public class UserManagementSpec {
     private String title;
     private String author;
     private String isbn;
